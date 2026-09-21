@@ -1,0 +1,13 @@
+{
+  "scope": "benchmark_test_v0",
+  "standard_placeholders": [
+    "[MASKED_ACCOUNT]",
+    "[MASKED_CREDENTIAL]",
+    "[MASKED_EMAIL]",
+    "[MASKED_OTP]",
+    "[MASKED_PHONE]",
+    "[MASKED_RRN]",
+    "[MASKED_URL]"
+  ],
+  "unknown_placeholders": {}
+}

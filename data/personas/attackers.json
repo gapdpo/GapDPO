@@ -1,0 +1,170 @@
+[
+  {
+    "id": "family_impersonator",
+    "name": "Family Impersonator",
+    "description": "가족 또는 지인의 목소리를 흉내 내는 딥보이스 사칭자.",
+    "default_goals": ["money_transfer", "voice_sample_or_callback"],
+    "pressure_methods": ["emotional_pressure", "urgency", "secrecy_request"]
+  },
+  {
+    "id": "institution_impersonator",
+    "name": "Institution Impersonator",
+    "description": "은행, 수사기관, 공공기관을 사칭하는 행위자.",
+    "default_goals": ["credential_capture", "identity_information"],
+    "pressure_methods": ["authority_impersonation", "fraud_alert", "compliance_pressure"]
+  },
+  {
+    "id": "corporate_impersonator",
+    "name": "Corporate Impersonator",
+    "description": "임원, 거래처, 내부 보안팀을 사칭하는 행위자.",
+    "default_goals": ["money_transfer", "credential_capture"],
+    "pressure_methods": ["workplace_authority", "deadline_pressure", "process_exception"]
+  },
+  {
+    "id": "service_provider_impersonator",
+    "name": "Service Provider Impersonator",
+    "description": "결제, 배송, 예약, 유지보수 등 외부 서비스 제공자를 사칭해 계정 확인이나 정산 예외를 요구하는 행위자.",
+    "default_goals": ["credential_capture", "identity_information"],
+    "pressure_methods": ["service_continuity_pressure", "invoice_or_refund_exception", "support_ticket_authority"]
+  },
+  {
+    "id": "recruiter_impersonator",
+    "name": "Recruiter Impersonator",
+    "description": "채용 담당자, 계약 관리자, 온보딩 지원자를 사칭해 신원 확인이나 계정 등록을 요구하는 행위자.",
+    "default_goals": ["identity_information", "credential_capture"],
+    "pressure_methods": ["hiring_deadline_pressure", "onboarding_authority", "background_check_urgency"]
+  },
+  {
+    "id": "healthcare_support_impersonator",
+    "name": "Healthcare Support Impersonator",
+    "description": "진료 예약, 검사 결과, 보험 청구 지원 담당자를 사칭해 신원 확인이나 포털 접근 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information", "credential_capture"],
+    "pressure_methods": ["appointment_access_pressure", "claim_or_copay_exception", "privacy_verification_authority"]
+  },
+  {
+    "id": "housing_admin_impersonator",
+    "name": "Housing Admin Impersonator",
+    "description": "임대 관리, 건물 관리, 수리 접수 담당자를 사칭해 거주 확인이나 결제 예외 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information", "money_transfer"],
+    "pressure_methods": ["housing_stability_pressure", "maintenance_access_pressure", "lease_compliance_authority"]
+  },
+  {
+    "id": "utility_support_impersonator",
+    "name": "Utility Support Impersonator",
+    "description": "전기, 수도, 통신, 인터넷 등 필수 서비스 지원 담당자를 사칭해 계정 확인이나 결제 예외 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information", "credential_capture"],
+    "pressure_methods": ["essential_service_continuity_pressure", "outage_or_disconnection_urgency", "billing_exception_authority"]
+  },
+  {
+    "id": "benefits_caseworker_impersonator",
+    "name": "Benefits Caseworker Impersonator",
+    "description": "지원금, 장학금, 보조금, 공공 서비스 담당자를 사칭해 자격 확인이나 포털 접근 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information", "credential_capture"],
+    "pressure_methods": ["benefit_deadline_pressure", "eligibility_review_authority", "documentation_exception"]
+  },
+  {
+    "id": "platform_policy_impersonator",
+    "name": "Platform Policy Impersonator",
+    "description": "콘텐츠, 판매, 후원 플랫폼의 정책 심사나 수익화 지원 담당자를 사칭해 계정 확인이나 정산 정보 확인을 요구하는 행위자.",
+    "default_goals": ["credential_capture", "identity_information"],
+    "pressure_methods": ["monetization_review_pressure", "policy_compliance_authority", "payout_exception_notice"]
+  },
+  {
+    "id": "education_admin_impersonator",
+    "name": "Education Admin Impersonator",
+    "description": "학교, 돌봄, 활동 운영 담당자를 사칭해 보호자 확인, 동의서 처리, 계정 접근 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information", "credential_capture"],
+    "pressure_methods": ["child_safety_urgency", "attendance_or_permission_deadline", "administrative_authority"]
+  },
+  {
+    "id": "document_support_impersonator",
+    "name": "Document Support Impersonator",
+    "description": "행정 서류, 번역 지원, 접수 보완 담당자를 사칭해 신원 자료나 지원 포털 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information", "credential_capture"],
+    "pressure_methods": ["document_deadline_pressure", "language_access_authority", "application_status_urgency"]
+  },
+  {
+    "id": "tax_portal_impersonator",
+    "name": "Tax Portal Impersonator",
+    "description": "세무 포털 또는 환급 상태 담당자를 사칭해 신고자 신원과 환급 상태 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information"],
+    "pressure_methods": ["tax_deadline_pressure", "refund_status_authority", "case_reference_pressure"]
+  },
+  {
+    "id": "travel_rebooking_impersonator",
+    "name": "Travel Rebooking Impersonator",
+    "description": "여행 예약 재조정 담당자를 사칭해 일정과 예약 계정 상태 확인을 요구하는 행위자.",
+    "default_goals": ["credential_capture", "identity_information"],
+    "pressure_methods": ["itinerary_disruption_pressure", "rebooking_deadline", "booking_support_authority"]
+  },
+  {
+    "id": "property_claim_adjuster_impersonator",
+    "name": "Property Claim Adjuster Impersonator",
+    "description": "재산 보험 보상 담당자를 사칭해 청구 보완과 계약자 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information"],
+    "pressure_methods": ["claim_deadline_pressure", "adjuster_authority", "supplemental_document_pressure"]
+  },
+  {
+    "id": "emergency_drill_coordinator_impersonator",
+    "name": "Emergency Drill Coordinator Impersonator",
+    "description": "사전 재난 대비 훈련 콜백 담당자를 사칭해 훈련 안내 확인과 통화 응답을 요구하는 행위자.",
+    "default_goals": ["voice_sample_or_callback"],
+    "pressure_methods": ["community_authority_pressure", "drill_schedule_pressure", "callback_confirmation_pressure"]
+  },
+  {
+    "id": "nonprofit_admin_impersonator",
+    "name": "Nonprofit Admin Impersonator",
+    "description": "지역 비영리 단체 행정 담당자를 사칭해 행사 역할과 callback 확인을 요구하는 행위자.",
+    "default_goals": ["voice_sample_or_callback"],
+    "pressure_methods": ["trusted_nonprofit_relationship", "event_schedule_pressure", "callback_confirmation_pressure"]
+  },
+  {
+    "id": "veterinary_scheduler_impersonator",
+    "name": "Veterinary Scheduler Impersonator",
+    "description": "동물병원 예약 담당자를 사칭해 반려동물 예약 접수와 연락처 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information"],
+    "pressure_methods": ["appointment_schedule_pressure", "pet_care_anxiety", "clinic_callback_authority"]
+  },
+  {
+    "id": "university_research_impersonator",
+    "name": "University Research Impersonator",
+    "description": "대학 연구팀 담당자를 사칭해 연구 참여 일정과 동의 상태 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information"],
+    "pressure_methods": ["study_schedule_pressure", "consent_status_authority", "participant_contact_pressure"]
+  },
+  {
+    "id": "library_services_impersonator",
+    "name": "Library Services Impersonator",
+    "description": "도서관 서비스 담당자를 사칭해 예약 도서와 디지털 접근 상태 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information"],
+    "pressure_methods": ["circulation_notice_authority", "hold_pickup_deadline", "digital_access_pressure"]
+  },
+  {
+    "id": "vehicle_recall_impersonator",
+    "name": "Vehicle Recall Impersonator",
+    "description": "차량 리콜 또는 서비스 일정 담당자를 사칭해 예약과 등록 연락처 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information"],
+    "pressure_methods": ["safety_recall_pressure", "service_schedule_pressure", "dealer_authority"]
+  },
+  {
+    "id": "ticketing_refund_impersonator",
+    "name": "Ticketing Refund Impersonator",
+    "description": "예매 플랫폼 환불 담당자를 사칭해 주문 참조와 계정 접근 상태 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information"],
+    "pressure_methods": ["refund_status_pressure", "order_reference_authority", "event_change_pressure"]
+  },
+  {
+    "id": "membership_services_impersonator",
+    "name": "Membership Services Impersonator",
+    "description": "문화시설 회원 서비스 담당자를 사칭해 멤버십 접근 상태와 입장 예약 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information"],
+    "pressure_methods": ["membership_status_pressure", "mailed_notice_authority", "entry_reservation_pressure"]
+  },
+  {
+    "id": "childcare_waitlist_impersonator",
+    "name": "Childcare Waitlist Impersonator",
+    "description": "영아 보육 대기자 명단 담당자를 사칭해 입소 상담 일정과 보호자 확인을 요구하는 행위자.",
+    "default_goals": ["identity_information"],
+    "pressure_methods": ["infant_waitlist_pressure", "intake_appointment_deadline", "center_office_callback_authority"]
+  }
+]

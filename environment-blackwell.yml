@@ -1,0 +1,13 @@
+name: multi-db-blackwell
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - uv
+  - pip:
+      - -e .
+      - huggingface_hub[cli]
+      - pytest
+      - transformers>=4.51.0
+      - accelerate>=1.6.0

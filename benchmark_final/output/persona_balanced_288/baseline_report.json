@@ -1,0 +1,140 @@
+{
+  "baselines": {
+    "always_active": {
+      "SSU": 0.0,
+      "action_macro_f1": 0.0446,
+      "duplicate_alert_rate": 0.6493,
+      "event_macro_f1_diagnostic": 0.0202,
+      "false_active_rate": 1.0,
+      "missed_actionable_rate": 0.0,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 229.8177
+    },
+    "caller_turn_only": {
+      "SSU": 0.0,
+      "action_macro_f1": 0.2214,
+      "duplicate_alert_rate": 0.1997,
+      "event_macro_f1_diagnostic": 0.0907,
+      "false_active_rate": 0.4193,
+      "missed_actionable_rate": 0.2231,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 115.0608
+    },
+    "current_keyword": {
+      "SSU": 0.0,
+      "action_macro_f1": 0.19,
+      "duplicate_alert_rate": 0.3012,
+      "event_macro_f1_diagnostic": 0.1035,
+      "false_active_rate": 0.5146,
+      "missed_actionable_rate": 0.125,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 126.9531
+    },
+    "never_active": {
+      "SSU": 17.1875,
+      "action_macro_f1": 0.1037,
+      "duplicate_alert_rate": 0.0,
+      "event_macro_f1_diagnostic": 0.0408,
+      "false_active_rate": 0.0,
+      "missed_actionable_rate": 1.0,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 82.8125
+    },
+    "placeholder_count_or_type": {
+      "SSU": 16.276,
+      "action_macro_f1": 0.2205,
+      "duplicate_alert_rate": 0.1259,
+      "event_macro_f1_diagnostic": 0.1083,
+      "false_active_rate": 0.1626,
+      "missed_actionable_rate": 0.4538,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 83.724
+    },
+    "position_only": {
+      "SSU": 0.0,
+      "action_macro_f1": 0.2056,
+      "duplicate_alert_rate": 0.3993,
+      "event_macro_f1_diagnostic": 0.1273,
+      "false_active_rate": 0.6771,
+      "missed_actionable_rate": 0.0,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 154.8177
+    },
+    "prefix_keyword": {
+      "SSU": 0.0,
+      "action_macro_f1": 0.1556,
+      "duplicate_alert_rate": 0.4735,
+      "event_macro_f1_diagnostic": 0.0808,
+      "false_active_rate": 0.7371,
+      "missed_actionable_rate": 0.0,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 171.5278
+    },
+    "repeat_prior_state": {
+      "SSU": 17.1875,
+      "action_macro_f1": 0.1192,
+      "duplicate_alert_rate": 0.0,
+      "event_macro_f1_diagnostic": 0.0512,
+      "false_active_rate": 0.0,
+      "missed_actionable_rate": 1.0,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 82.8125
+    },
+    "shuffled_dialogue": {
+      "SSU": 0.0,
+      "action_macro_f1": 0.1556,
+      "duplicate_alert_rate": 0.4735,
+      "event_macro_f1_diagnostic": 0.0808,
+      "false_active_rate": 0.7371,
+      "missed_actionable_rate": 0.0,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 171.5278
+    },
+    "static_preserve_on_any_mask": {
+      "SSU": 32.3785,
+      "action_macro_f1": 0.2293,
+      "duplicate_alert_rate": 0.1753,
+      "event_macro_f1_diagnostic": 0.0989,
+      "false_active_rate": 0.2265,
+      "missed_actionable_rate": 0.0,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 67.6215
+    },
+    "static_refuse": {
+      "SSU": 0.0,
+      "action_macro_f1": 0.0446,
+      "duplicate_alert_rate": 0.6493,
+      "event_macro_f1_diagnostic": 0.0202,
+      "false_active_rate": 1.0,
+      "missed_actionable_rate": 0.0,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 229.8177
+    },
+    "static_verify": {
+      "SSU": 0.0,
+      "action_macro_f1": 0.0097,
+      "duplicate_alert_rate": 0.6493,
+      "event_macro_f1_diagnostic": 0.0054,
+      "false_active_rate": 1.0,
+      "missed_actionable_rate": 0.0,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 239.8872
+    },
+    "window_length_only": {
+      "SSU": 0.0,
+      "action_macro_f1": 0.2545,
+      "duplicate_alert_rate": 0.2743,
+      "event_macro_f1_diagnostic": 0.1212,
+      "false_active_rate": 0.5157,
+      "missed_actionable_rate": 0.0,
+      "prediction_count": 2304,
+      "weighted_cost_per_100": 117.3177
+    }
+  },
+  "official_blocking_threshold": {
+    "baseline_ssu_at_or_above": 60,
+    "baseline_within_reference_model_ssu_points": 15
+  },
+  "scale": "SSU_0_to_100_higher_is_better",
+  "scope": "selective_stream_trivial_baselines"
+}

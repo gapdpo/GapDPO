@@ -1,0 +1,14 @@
+name: multi-agent-db
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -e .
+      - vllm>=0.8.5
+      - transformers>=4.51.0
+      - accelerate>=1.6.0
+

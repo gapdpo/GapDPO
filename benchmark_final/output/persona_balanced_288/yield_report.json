@@ -1,0 +1,60 @@
+{
+  "action_distribution": {
+    "monitor_only": 978,
+    "no_alert": 806,
+    "pause_or_verify": 57,
+    "preserve_and_report": 174,
+    "refuse_or_pause": 289
+  },
+  "event_distribution": {
+    "needs_more_context": 690,
+    "new_caller_directed_path": 58,
+    "new_sensitive_request": 231,
+    "no_new_actionable_event": 518,
+    "pressure_escalation": 57,
+    "pressure_only_monitor": 288,
+    "recipient_containment": 288,
+    "recipient_partial_or_direct_disclosure": 58,
+    "recovery_followup_due": 116
+  },
+  "family": "selective_stream_intervention_v1",
+  "gold_status_distribution": {
+    "programmatic_validated": 2304
+  },
+  "placeholder_status_distribution": {
+    "programmatic_validated": 2304
+  },
+  "public_item_count": 2304,
+  "public_whitelist_violation_count": 0,
+  "public_whitelist_violations": [],
+  "qa_path": null,
+  "rejected_by_reason": {},
+  "rejected_count": 0,
+  "release_floor_30_by_action": {
+    "monitor_only": true,
+    "no_alert": true,
+    "pause_or_verify": true,
+    "preserve_and_report": true,
+    "refuse_or_pause": true
+  },
+  "release_floor_30_by_event": {
+    "needs_more_context": true,
+    "new_caller_directed_path": true,
+    "new_sensitive_request": true,
+    "no_new_actionable_event": true,
+    "pressure_escalation": true,
+    "pressure_only_monitor": true,
+    "recipient_containment": true,
+    "recipient_partial_or_direct_disclosure": true,
+    "recovery_followup_due": true
+  },
+  "scope": "selective_stream_intervention_yield",
+  "source_path": "data/generated/stream_v2/run_stream_v2_persona_balanced_288_vllm.jsonl",
+  "status": "official_candidate_pending_gates",
+  "stream_count": 288,
+  "surface": "typed_raw",
+  "surface_distribution": {
+    "typed_raw": 2304
+  },
+  "window_size": 6
+}

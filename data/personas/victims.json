@@ -1,0 +1,346 @@
+[
+  {
+    "id": "elderly_parent",
+    "name": "Elderly Parent",
+    "description": "가족의 긴급 상황에 민감하게 반응하는 고령층 피해자.",
+    "vulnerabilities": ["family_emergency", "emotional_pressure", "limited_digital_literacy"],
+    "resistance_style": "초반에는 불안해하지만, 후반에는 가족 확인과 은행 확인을 요구한다.",
+    "protected_assets": [
+      "bank_account_access",
+      "card_information",
+      "otp_or_security_card",
+      "family_relationship_details",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "office_worker",
+    "name": "Office Worker",
+    "description": "상급자와 거래처 요청을 빠르게 처리하려는 직장인 피해자.",
+    "vulnerabilities": ["workplace_authority", "deadline_pressure", "vendor_payment_process"],
+    "resistance_style": "업무 절차를 따르려 하지만, 결재 라인과 사내 보안 확인을 요구한다.",
+    "protected_assets": [
+      "company_payment_authority",
+      "internal_credentials",
+      "employee_identity_details",
+      "vendor_account_details",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "student_or_young_adult",
+    "name": "Student or Young Adult",
+    "description": "계정 보안 알림, 지인 사칭, 기관 연락에 노출된 청년층 피해자.",
+    "vulnerabilities": ["account_security_alert", "peer_impersonation", "mobile_first_behavior"],
+    "resistance_style": "메시지와 통화를 병행해 확인하려 하며, 링크 대신 공식 앱 접속을 선호한다.",
+    "protected_assets": [
+      "mobile_payment_access",
+      "account_password",
+      "identity_document_image",
+      "personal_contact_graph",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "small_business_owner",
+    "name": "Small Business Owner",
+    "description": "예약, 정산, 납품, 고객 응대를 직접 처리하는 소상공인 피해자.",
+    "vulnerabilities": ["cash_flow_pressure", "supplier_invoice_change", "service_interruption_notice"],
+    "resistance_style": "급한 정산이나 서비스 중단 압박에도 계약서, 세금계산서, 기존 담당자 확인을 요구한다.",
+    "protected_assets": [
+      "business_bank_account_access",
+      "merchant_payment_credentials",
+      "supplier_account_details",
+      "tax_or_registration_documents",
+      "customer_contact_records",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "remote_job_seeker",
+    "name": "Remote Job Seeker",
+    "description": "비대면 채용, 프리랜스 계약, 온보딩 안내를 기다리는 구직자 피해자.",
+    "vulnerabilities": ["employment_uncertainty", "remote_onboarding_pressure", "background_check_request"],
+    "resistance_style": "채용 일정 압박에도 공식 채용 포털, 서면 계약서, 검증 가능한 담당자 연락 경로를 요구한다.",
+    "protected_assets": [
+      "identity_document_image",
+      "resume_contact_details",
+      "bank_account_for_payroll",
+      "employment_account_credentials",
+      "professional_reference_contacts",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "telehealth_patient",
+    "name": "Telehealth Patient",
+    "description": "비대면 진료, 검사 결과, 보험 청구 안내를 기다리는 의료 서비스 이용자 피해자.",
+    "vulnerabilities": ["health_anxiety", "appointment_access_pressure", "insurance_claim_confusion"],
+    "resistance_style": "건강 관련 긴급성을 인정하되, 의료 포털과 공식 안내 문서, 예약된 연락 경로를 통해 재확인을 요구한다.",
+    "protected_assets": [
+      "health_portal_credentials",
+      "insurance_member_details",
+      "medical_appointment_records",
+      "identity_document_image",
+      "payment_card_for_copay",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "renter_or_tenant",
+    "name": "Renter or Tenant",
+    "description": "임대차 계약, 관리비, 수리 일정 안내를 비대면으로 받는 주거 임차인 피해자.",
+    "vulnerabilities": ["housing_stability_pressure", "maintenance_access_notice", "lease_document_request"],
+    "resistance_style": "주거 안정 압박에도 임대차 계약서, 공식 관리 채널, 등록된 담당자 연락 경로를 통한 재확인을 요구한다.",
+    "protected_assets": [
+      "lease_or_residency_documents",
+      "rent_payment_details",
+      "home_access_schedule",
+      "identity_document_image",
+      "household_contact_details",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "utility_account_holder",
+    "name": "Utility Account Holder",
+    "description": "전기, 수도, 통신, 인터넷 같은 필수 생활 서비스의 계정과 고지서를 관리하는 이용자 피해자.",
+    "vulnerabilities": ["essential_service_continuity_pressure", "outage_or_disconnection_notice", "billing_exception_confusion"],
+    "resistance_style": "필수 서비스 중단 압박에도 공식 앱, 기존 고지서, 등록된 고객센터 경로를 통해 재확인을 요구한다.",
+    "protected_assets": [
+      "utility_account_credentials",
+      "billing_or_autopay_details",
+      "service_address_details",
+      "identity_document_image",
+      "household_contact_details",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "public_benefit_recipient",
+    "name": "Public Benefit Recipient",
+    "description": "지원금, 장학금, 보조금, 공공 서비스 자격 안내를 기다리는 이용자 피해자.",
+    "vulnerabilities": ["benefit_eligibility_pressure", "documentation_deadline", "institution_contact_confusion"],
+    "resistance_style": "자격 상실이나 마감 압박에도 공식 포털, 우편 안내문, 등록된 기관 연락처를 통한 재확인을 요구한다.",
+    "protected_assets": [
+      "benefit_portal_credentials",
+      "identity_document_image",
+      "bank_account_for_disbursement",
+      "household_income_documents",
+      "case_reference_number",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "freelance_creator",
+    "name": "Freelance Creator",
+    "description": "콘텐츠 수익화, 후원 정산, 협찬 계약, 저작권 알림을 비대면으로 처리하는 프리랜스 창작자 피해자.",
+    "vulnerabilities": ["creator_income_volatility", "platform_policy_notice", "sponsorship_payment_pressure"],
+    "resistance_style": "수익 정지나 계약 취소 압박에도 플랫폼 공식 알림함, 기존 계약서, 등록된 정산 메뉴를 통한 재확인을 요구한다.",
+    "protected_assets": [
+      "creator_platform_credentials",
+      "payout_account_details",
+      "sponsorship_contract_records",
+      "tax_or_identity_documents",
+      "audience_contact_channels",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "caregiver_or_guardian",
+    "name": "Caregiver or Guardian",
+    "description": "학교, 돌봄, 방과후 활동, 보호자 동의 안내를 비대면으로 받는 보호자 피해자.",
+    "vulnerabilities": ["child_safety_anxiety", "school_schedule_disruption", "permission_deadline_pressure"],
+    "resistance_style": "자녀나 피부양자 관련 긴급성에도 공식 알림장, 등록된 보호자 연락망, 기존 행정 창구를 통한 재확인을 요구한다.",
+    "protected_assets": [
+      "guardian_identity_details",
+      "student_or_dependent_records",
+      "school_portal_credentials",
+      "activity_payment_details",
+      "authorized_pickup_contacts",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "language_access_service_user",
+    "name": "Language Access Service User",
+    "description": "번역 지원, 행정 서류 보완, 예약 안내를 비대면으로 받는 언어 접근 지원 이용자 피해자.",
+    "vulnerabilities": ["language_barrier", "document_deadline_pressure", "interpreter_channel_confusion"],
+    "resistance_style": "서류 마감이나 통역 지원 압박에도 공식 포털, 서면 안내문, 등록된 지원 창구를 통한 재확인을 요구한다.",
+    "protected_assets": [
+      "identity_document_image",
+      "residency_or_application_documents",
+      "case_reference_number",
+      "language_support_portal_credentials",
+      "appointment_or_service_records",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "seasonal_tax_filer",
+    "name": "Seasonal Tax Filer",
+    "description": "환급 상태, 신고 보완, 세무 포털 알림을 기다리는 계절성 세금 신고자 피해자.",
+    "vulnerabilities": ["tax_deadline_pressure", "refund_status_confusion", "portal_notice_authority"],
+    "resistance_style": "환급 지연 압박에도 공식 세무 포털, 우편 고지, 등록된 상담 경로를 통해 재확인을 요구한다.",
+    "protected_assets": [
+      "tax_portal_access_status",
+      "taxpayer_identity_reference",
+      "case_reference_number",
+      "refund_status_details",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "travel_booking_customer",
+    "name": "Travel Booking Customer",
+    "description": "항공권, 숙소, 일정 변경 안내를 예약 앱과 고객센터를 통해 받는 여행 예약 고객 피해자.",
+    "vulnerabilities": ["itinerary_disruption_pressure", "rebooking_deadline", "booking_reference_confusion"],
+    "resistance_style": "일정 취소나 재예약 압박에도 예약 앱, 저장된 고객센터 번호, 공식 이메일을 통해 확인한다.",
+    "protected_assets": [
+      "travel_account_credentials",
+      "booking_reference_number",
+      "itinerary_contact_details",
+      "booking_payment_status_reference",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "property_claim_policyholder",
+    "name": "Property Claim Policyholder",
+    "description": "주택 또는 물품 손해 보상 청구 보완 안내를 기다리는 재산 보험 계약자 피해자.",
+    "vulnerabilities": ["claim_deadline_pressure", "property_damage_stress", "adjuster_authority_confusion"],
+    "resistance_style": "청구 지연 압박에도 보험사 앱, 기존 증권, 등록된 보상 담당자 연락처로 확인한다.",
+    "protected_assets": [
+      "claim_reference_number",
+      "property_policy_account",
+      "policyholder_identity_reference",
+      "incident_contact_details",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "disaster_preparedness_resident",
+    "name": "Disaster Preparedness Resident",
+    "description": "지역의 사전 재난 대비 훈련 안내문과 콜백 일정을 확인하는 주민 피해자.",
+    "vulnerabilities": ["community_authority_pressure", "preparedness_notice_confusion", "callback_schedule_pressure"],
+    "resistance_style": "훈련 안내 압박에도 우편 안내문, 지자체 알림함, 저장된 커뮤니티 사무실 번호로만 확인한다.",
+    "protected_assets": [
+      "preparedness_notice_reference",
+      "drill_callback_reference",
+      "registered_contact_details",
+      "callback_window_preference",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "community_volunteer_coordinator",
+    "name": "Community Volunteer Coordinator",
+    "description": "지역 봉사 행사 일정과 역할 배정을 조율하는 자원봉사 코디네이터 피해자.",
+    "vulnerabilities": ["event_schedule_pressure", "trusted_nonprofit_relationship", "callback_coordination_pressure"],
+    "resistance_style": "행사 일정 압박에도 저장된 단체 담당자 번호와 기존 행사 공지 채널로 callback을 확인한다.",
+    "protected_assets": [
+      "event_callback_reference",
+      "volunteer_role_details",
+      "coordinator_contact_details",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "pet_care_client",
+    "name": "Pet Care Client",
+    "description": "반려동물 예약 일정과 접수 확인 안내를 받는 동물병원 이용자 피해자.",
+    "vulnerabilities": ["appointment_schedule_pressure", "pet_care_anxiety", "clinic_callback_confusion"],
+    "resistance_style": "예약 변경 압박에도 저장된 병원 번호, 예약 앱, 우편 또는 포털 알림으로만 확인한다.",
+    "protected_assets": [
+      "appointment_reference_number",
+      "pet_profile_reference",
+      "registered_contact_details",
+      "clinic_callback_reference",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "research_participant",
+    "name": "Research Participant",
+    "description": "대학 연구 참여 일정, 동의 상태, 연락처 확인 안내를 받는 연구 참여자 피해자.",
+    "vulnerabilities": ["study_schedule_pressure", "consent_status_confusion", "university_authority"],
+    "resistance_style": "연구 일정 압박에도 연구 포털 알림함, 기존 동의서, 등록된 연구실 연락처로 확인한다.",
+    "protected_assets": [
+      "study_reference_number",
+      "participant_contact_details",
+      "participant_identity_reference",
+      "study_portal_inbox_reference",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "library_account_holder",
+    "name": "Library Account Holder",
+    "description": "도서관 계정, 예약 도서, 디지털 자료 접근 상태 안내를 받는 이용자 피해자.",
+    "vulnerabilities": ["digital_access_pressure", "hold_pickup_deadline", "circulation_notice_confusion"],
+    "resistance_style": "대출 또는 접근 제한 압박에도 도서관 앱, 포털 알림함, 저장된 도서관 번호로 확인한다.",
+    "protected_assets": [
+      "library_account_reference",
+      "digital_library_access_status",
+      "hold_pickup_details",
+      "registered_contact_details",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "vehicle_owner",
+    "name": "Vehicle Owner",
+    "description": "차량 리콜 또는 서비스 예약 안내를 받는 차량 소유자 피해자.",
+    "vulnerabilities": ["safety_recall_pressure", "service_schedule_pressure", "dealer_authority_confusion"],
+    "resistance_style": "안전 리콜 압박에도 공식 리콜 조회, 저장된 서비스센터 번호, 우편 안내문으로 확인한다.",
+    "protected_assets": [
+      "vehicle_account_reference",
+      "service_appointment_details",
+      "registered_contact_details",
+      "recall_notice_reference",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "event_ticket_buyer",
+    "name": "Event Ticket Buyer",
+    "description": "행사 예매, 환불 상태, 계정 알림을 예매 플랫폼에서 확인하는 티켓 구매자 피해자.",
+    "vulnerabilities": ["event_change_pressure", "refund_status_confusion", "order_reference_pressure"],
+    "resistance_style": "환불이나 입장 제한 압박에도 예매 계정 알림함, 주문 내역, 저장된 고객센터 경로로 확인한다.",
+    "protected_assets": [
+      "ticketing_account_access_status",
+      "order_reference_number",
+      "registered_contact_details",
+      "event_account_inbox",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "museum_member",
+    "name": "Museum Member",
+    "description": "문화시설 멤버십 접근 상태와 입장 예약 안내를 받는 개인 회원 피해자.",
+    "vulnerabilities": ["membership_status_pressure", "entry_reservation_confusion", "mailed_notice_authority"],
+    "resistance_style": "회원 접근 제한 압박에도 멤버십 포털 알림함, 우편 안내문, 저장된 회원 서비스 번호로 확인한다.",
+    "protected_assets": [
+      "membership_reference_number",
+      "member_contact_details",
+      "entry_reservation_status",
+      "mailed_notice_reference",
+      "voice_sample"
+    ]
+  },
+  {
+    "id": "infant_childcare_applicant",
+    "name": "Infant Childcare Applicant",
+    "description": "영아 보육 대기자 명단과 입소 상담 일정을 확인하는 보호자 피해자.",
+    "vulnerabilities": ["infant_waitlist_pressure", "intake_appointment_deadline", "center_office_callback_confusion"],
+    "resistance_style": "대기 순번이나 상담 일정 압박에도 센터 사무실 callback과 공식 영아 대기자 안내문으로만 확인한다.",
+    "protected_assets": [
+      "guardian_identity_reference",
+      "waitlist_reference_number",
+      "registered_contact_details",
+      "intake_appointment_details",
+      "voice_sample"
+    ]
+  }
+]
