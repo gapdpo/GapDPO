@@ -1,9 +1,12 @@
 # Multi-Agent Deepvoice Phishing Dataset Generator
-<a href="https://github.com/gapdpo/GapDPO_code.git"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/></a> 
 
 A **Korean synthetic dialogue dataset generator** for research on detecting and defending against deepvoice-based voice phishing.
 
 This project is not a tool for assisting real attacks. It is a research pipeline that turns deepvoice impersonation situations into structured data, capturing what kind of pressure victims face and how they defend themselves or hesitate. All generated dialogues mask sensitive information with placeholders, and the pipeline is designed so that no real URLs, credentials, malicious infrastructure, or bypass procedures needed to carry out an attack are included.
+
+## GapDPO Training Code
+
+<a href="https://github.com/gapdpo/GapDPO_code.git"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/></a> 
 
 ## Project Motivation
 
